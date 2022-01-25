@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #c69600;
+  --secondary-color: #eccd39;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: 0.1rem 0.25rem var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(
+    to bottom,
+    hsla(46, 83%, 50%, 1),
+    hsla(46, 100%, 61%, 1)
+  );
+
+  color: var(--primary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(to bottom, rgb(191, 148, 9), rgb(220, 175, 29));
+
+  color: #9d7601;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #9d7601;
+  color: #9d7601;
+}
+
+.illustration {
+  background: url('../assets/illustration/sanji-illustration.png') no-repeat
+    center center/cover;
+}

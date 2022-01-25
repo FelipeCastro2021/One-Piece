@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #3065a7;
+  --secondary-color: #5cb6ed;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: 0.1rem 0.25rem var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(180deg, #457abc 0%, #6fa1df 100%);
+
+  color: var(--primary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(180deg, #2c5c97 0%, #4e80bd 100%);
+
+  color: #0d9099;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #0d9099;
+  color: #0d9099;
+}
+
+.illustration {
+  background: url('../assets/illustration/franky-illustration.png') no-repeat
+    left center/cover;
+}

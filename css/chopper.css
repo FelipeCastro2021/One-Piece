@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #b4004f;
+  --secondary-color: #e31570;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: 0.1rem 0.25rem var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(180deg, #cd1867 0%, #f35098 100%);
+
+  color: var(--primary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(180deg, #b30b54 0%, #d3327b 100%);
+
+  color: #770034;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #770034;
+  color: #770034;
+}
+
+.illustration {
+  background: url('../assets/illustration/chopper-illustration.png') no-repeat
+    center center/cover;
+}

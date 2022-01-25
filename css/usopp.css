@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #7c6703;
+  --secondary-color: #d3b65d;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: -0.1rem 0.15rem var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(180deg, #9c8517 0%, #c8b040 100%);
+
+  color: var(--primary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(180deg, #7e6a08 0%, #b19829 100%);
+
+  color: #6f5403;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #9e8333;
+  color: #9e8333;
+}
+
+.illustration {
+  background: url('../assets/illustration/usopp-illustration.png') no-repeat
+    left center/cover;
+}

@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #21aab5;
+  --secondary-color: #70ddf0;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: 0.1rem 0.25rem var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(180deg, #4bcfda 0%, #7cf2fc 100%);
+
+  color: var(--primary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(180deg, #2aa1ac 0%, #58ccd6 100%);
+
+  color: #0d9099;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #0d9099;
+  color: #0d9099;
+}
+
+.illustration {
+  background: url('../assets/illustration/nami-illustration.png') no-repeat
+    center center/cover;
+}

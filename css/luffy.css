@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #0029c2;
+  --secondary-color: #183fdc;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: 0 2px 0 2px var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(
+    to bottom,
+    hsla(228, 76%, 50%, 1),
+    hsla(228, 100%, 83%, 1)
+  );
+
+  color: var(--primary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(to bottom, rgb(18, 54, 197), rgb(118, 145, 253));
+
+  color: #03228f;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #03228f;
+  color: #03228f;
+}
+
+.illustration {
+  background: url('../assets/illustration/luffy-illustration.png') no-repeat
+    center center/cover;
+}

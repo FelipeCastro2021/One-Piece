@@ -1,0 +1,47 @@
+:root {
+  --secondary-color: #b20c24;
+  --primary-color: #ed922e;
+}
+
+.menu-items .menu-item a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.name-price {
+  color: var(--primary-color);
+}
+
+h1.title {
+  text-shadow: 0.1rem 0.25rem var(--secondary-color);
+}
+
+.buttons a:first-child {
+  background: linear-gradient(180deg, #f9a242 0%, #f8b368 100%);
+
+  color: var(--secondary-color);
+}
+
+.buttons a:last-child {
+  background-color: transparent;
+
+  border: 6px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.buttons a:first-child:hover {
+  background: linear-gradient(180deg, #f9a242 0%, #f8b368 100%);
+
+  color: #ce7414;
+}
+
+.buttons a:last-child:hover {
+  background-color: transparent;
+
+  border: 6px solid #ce7414;
+  color: #ce7414;
+}
+
+.illustration {
+  background: url('../assets/illustration/jinbe-illustration.png') no-repeat
+    center center/cover;
+}
