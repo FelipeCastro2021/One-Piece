@@ -1,7 +1,7 @@
-<h1 align="center"> Habits </h1>
+<h1 align="center"> One Piece </h1>
 
 <p align="center">
-  NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+  O Website de One Piece tem como objetivo transmitir de forma breve uma introdução dos personagens. <br/>
 </p>
 
 <p align="center">
@@ -28,10 +28,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - SCSS
 - Git e Github
+- Figma
 
 ## 💻 Projeto
 
-O Login Dark é um projeto para contribuir com os conhecimentos de responsividade e animação de imagens.
+O One Piece Website é um projeto para contribuir com os conhecimentos de responsividade e trabalho com imagem.
 
 - [Visite o vídeo explicativo](https://www.youtube.com/watch?v=69-WfrVBli8&list=WL&index=310)
 
